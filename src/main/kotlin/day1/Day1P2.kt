@@ -3,7 +3,7 @@ package day1
 import file.FileReader
 
 fun main() {
-    val fileContent = FileReader.readContent("/day2/input.txt")
+    val fileContent = FileReader.readContent("/day1/input.txt")
 
     val top = fileContent.split("\n\n")
         .map { it.split("\n").filter { it.isNotBlank() } }
